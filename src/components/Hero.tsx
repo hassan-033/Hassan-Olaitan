@@ -5,11 +5,11 @@ export default function Hero() {
         <div className="space-y-6">
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
             <span className="block">Hi, I'm Hassan</span>
-            <span className="block text-blue-600">Software Engineer & Developer</span>
+            <span className="block text-blue-600">Front-End Web Developer</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-lg">
             Passionate about building scalable applications and creating elegant solutions to complex problems.
-            Experienced in full-stack development and cloud technologies.
+            Experienced in front-end development and web technologies.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#contact" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-transform duration-500">

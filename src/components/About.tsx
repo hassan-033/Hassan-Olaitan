@@ -11,7 +11,7 @@ export default function About() {
           <div className="md:col-span-1">
             <h3 className="text-xl font-semibold mb-4">Who I Am</h3>
             <p className="text-gray-600 mb-4">
-              I'm a passionate software engineer with a strong foundation in computer science and over 5 years of professional experience.
+              I'm a passionate front-end engineer with a strong foundation in programming and over 3 years of professional experience.
             </p>
             <p className="text-gray-600">
               I thrive on solving complex problems and am always eager to learn new technologies.
@@ -23,8 +23,8 @@ export default function About() {
               <div className="bg-gray-50 p-6 rounded-xl">
                 <h4 className="font-semibold text-lg mb-2">Skills</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• Full-Stack Development</li>
-                  <li>• Data Analysis</li>
+                  <li>• Front-End Development</li>
+                  <li>• Data Science</li>
                   <li>• Agile Methodology</li>
                   <li>• Technical Leadership</li>
                 </ul>
@@ -36,7 +36,7 @@ export default function About() {
                   <li>• JavaScript/TypeScript</li>
                   <li>• React / Next.js</li>
                   <li>• Node.js / Python</li>
-                  <li>• Artificial Intelligence</li>
+                  <li>• HTML / CSS</li>
                 </ul>
               </div>
 
