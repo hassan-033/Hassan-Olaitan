@@ -4,20 +4,20 @@ export default function Projects() {
       title: "AI-Powered Chatbot",
       description: "A conversational AI assistant built with React and Node.js that understands natural language queries.",
       tags: ["React", "Node.js", "NLP", "MongoDB"],
-      image: "src/assets/Images/img-1.jpg",
+      image: "https://res.cloudinary.com/deyjkjbl9/image/upload/v1756126807/img-1_fuqx8e.jpg",
     },
     {
       title: "E-Commerce Dashboard",
       description: "Admin dashboard for managing products, orders, and analytics with real-time updates.",
       tags: ["Vue.js", "Vuex", "Firebase", "Chart.js"],
-      image: "src/assets/Images/img-2.jpg",
+      image: "https://res.cloudinary.com/deyjkjbl9/image/upload/v1756126807/img-1_fuqx8e.jpg",
 
     },
     {
       title: "Weather Forecast App",
       description: "Mobile-first weather application using OpenWeatherMap API with location-based forecasts.",
       tags: ["JavaScript", "HTML5", "CSS3", "API"],
-      image: "src/assets/Images/weather-img.png",
+      image: "https://res.cloudinary.com/deyjkjbl9/image/upload/v1756126758/weather-img_dstwop.png",
       link: "https://weather-app-project-six-delta.vercel.app/"
     },
     {
@@ -25,7 +25,7 @@ export default function Projects() {
       description: "Personal developer portfolio built with modern web technologies showcasing work and skills.",
       tags: ["HTML", "CSS", "jQuery", "Responsive Design"],
       image: "src/assets/Images/portfolio-img.jpg",
-      link: "https://responsive-personal-portfolio-roan.vercel.app/#home"
+      link: "https://res.cloudinary.com/deyjkjbl9/image/upload/v1756126750/portfolio-img_c8cab0.jpg"
     }
   ];
 
