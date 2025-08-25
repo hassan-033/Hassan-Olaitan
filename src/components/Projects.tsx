@@ -4,7 +4,7 @@ export default function Projects() {
       title: "AI-Powered Chatbot",
       description: "A conversational AI assistant built with React and Node.js that understands natural language queries.",
       tags: ["React", "Node.js", "NLP", "MongoDB"],
-      image: "https://res.cloudinary.com/deyjkjbl9/image/upload/v1756126807/img-1_fuqx8e.jpg",
+      image: "https://res.cloudinary.com/deyjkjbl9/image/upload/v1756126805/img-4_kiulml.jpg",
     },
     {
       title: "E-Commerce Dashboard",
