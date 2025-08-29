@@ -34,7 +34,13 @@ export default function Contact() {
                 </div>
                 <div className="ml-4">
                   <h4 className="font-medium">Email</h4>
-                  <p className="text-gray-600">hassanolaitan033@gmail.com</p>
+                  {/* <p className="text-gray-600">hassanolaitan033@gmail.com</p> */}
+                  <a
+                    href="mailto:hassanolaitan033@gmail.com"
+                    className="text-blue-600 hover:underline"
+                  >
+                    hassanolaitan033@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -56,7 +62,13 @@ export default function Contact() {
                 </div>
                 <div className="ml-4">
                   <h4 className="font-medium">Phone</h4>
-                  <p className="text-gray-600">0905 810 1564</p>
+                  {/* <p className="text-gray-600">0905 810 1564</p> */}
+                  <a
+                    href="tel:+2349058101564"
+                    className="text-blue-600 hover:underline"
+                  >
+                    0905 810 1564
+                  </a>
                 </div>
               </div>
 

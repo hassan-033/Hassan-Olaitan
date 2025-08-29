@@ -24,7 +24,7 @@ export default function About() {
                 <h4 className="font-semibold text-lg mb-2">Skills</h4>
                 <ul className="space-y-2 text-gray-600">
                   <li>• Front-End Development</li>
-                  <li>• Data Science</li>
+                  <li>• Responsive Design</li>
                   <li>• Agile Methodology</li>
                   <li>• Technical Leadership</li>
                 </ul>
@@ -33,9 +33,9 @@ export default function About() {
               <div className="bg-gray-50 p-6 rounded-xl">
                 <h4 className="font-semibold text-lg mb-2">Technologies</h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• JavaScript/TypeScript</li>
-                  <li>• React / Next.js</li>
-                  <li>• Node.js / Python</li>
+                  <li>• React / TypeScript</li>
+                  <li>• JavaScript</li>
+                  <li>• BootStrap / Tailwind</li>
                   <li>• HTML / CSS</li>
                 </ul>
               </div>
