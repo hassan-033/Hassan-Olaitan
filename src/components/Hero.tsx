@@ -7,14 +7,23 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
-            <span className="block">Hi, I'm Hassan</span>
+            <span className="block">Hi, I&apos;m Hassan</span>
             <span className="block text-blue-600">Front-End Web Developer</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-lg">
-            Passionate about building scalable applications and creating elegant
-            solutions to complex problems. Experienced in front-end development
-            and web technologies.
+            I design and build user-focused web products with clean interfaces,
+            scalable architecture, and strong attention to detail.
           </p>
+
+          <div className="flex flex-wrap gap-3 text-sm">
+            <span className="px-3 py-1 rounded-full bg-white border border-blue-100 text-blue-700 font-medium">
+              Public & Private Projects
+            </span>
+            <span className="px-3 py-1 rounded-full bg-white border border-purple-100 text-purple-700 font-medium">
+              Responsive UI/UX
+            </span>
+          </div>
+
           <div className="flex flex-wrap gap-4">
             <a
               href="#contact"
@@ -26,7 +35,7 @@ export default function Hero() {
               href="#projects"
               className="px-6 py-3 border border-gray-300 rounded-lg hover:border-blue-500 hover:text-blue-600 transition-colors"
             >
-              View Projects
+              Explore Projects
             </a>
           </div>
         </div>
