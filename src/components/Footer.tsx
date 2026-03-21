@@ -1,13 +1,13 @@
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-200 py-8">
+    <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-8 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Hassan Olaitan
             </span>
-            <p className="text-gray-500 text-sm mt-1">
+            <p className="text-gray-500 dark:text-gray-400 text-sm mt-1">
               © 2025 All rights reserved.
             </p>
           </div>
@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="flex space-x-6">
             <a
               href="https://x.com/hassano20097441"
-              className="text-gray-500 hover:text-blue-600 transition-colors"
+              className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               <span className="sr-only">Twitter</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -24,7 +24,7 @@ export default function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/in/hassan-olaitan"
-              className="text-gray-500 hover:text-blue-600 transition-colors"
+              className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               <span className="sr-only">LinkedIn</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -33,7 +33,7 @@ export default function Footer() {
             </a>
             <a
               href="https://github.com/hassan-033"
-              className="text-gray-500 hover:text-blue-600 transition-colors"
+              className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               <span className="sr-only">GitHub</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">

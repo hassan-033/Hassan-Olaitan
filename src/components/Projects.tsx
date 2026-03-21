@@ -1,13 +1,21 @@
 export default function Projects() {
   const projects = [
     {
-      title: "E-Commerce Dashboard",
+      title: "Ramlad Global Technologies",
+      description: "A responsive, optimized website built for a solar energy company to showcase services and improve customer reach.",
+      tags: ["HTML", "CSS", "JavaScript", "BootStrap", "Responsive Design"],
+      image:
+        "https://res.cloudinary.com/deyjkjbl9/image/upload/v1774110893/Screenshot_2026-03-21_173336_auneiz.png",
+      link: "https://ramladglobal.com/",
+    },
+    {
+      title: "Cartify",
       description:
         "Admin dashboard for managing products, orders, and analytics with real-time updates.",
-      tags: ["Vue.js", "Vuex", "Firebase", "Chart.js"],
+      tags: ["React", "Tailwind CSS", "Responsive Design", "Vite", "API"],
       image:
-        "https://res.cloudinary.com/deyjkjbl9/image/upload/v1756381368/My_Snapshot_7_h9pfue.jpg",
-      link: "https://pivot-rust.vercel.app/",
+        "https://res.cloudinary.com/deyjkjbl9/image/upload/v1757755946/My_Snapshot_3_cc17lf.jpg",
+      link: "https://cartify-mu.vercel.app/",
     },
     {
       title: "Weather Forecast App",
@@ -36,23 +44,30 @@ export default function Projects() {
         "https://res.cloudinary.com/deyjkjbl9/image/upload/v1756365326/My_Snapshot_6_ue6gvu.jpg",
       link: "https://pay-e.vercel.app/",
     },
+    {
+    title: "Testable Profile Card",
+    description: "",
+    tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    image: "https://res.cloudinary.com/deyjkjbl9/image/upload/v1774118742/Screenshot_2026-03-21_194432_vwqxgs.png",
+    link: "https://testable-profile-card.vercel.app/",
+    },
   ];
 
   return (
-    <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-800 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
             Projects & Experience
           </h2>
-          <div className="mt-2 h-1 w-20 bg-blue-600 mx-auto rounded-full"></div>
+          <div className="mt-2 h-1 w-20 bg-blue-600 dark:bg-blue-500 mx-auto rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <div
+              <div
               key={index}
-              className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow border border-gray-200 group"
+              className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow border border-gray-200 dark:border-gray-700 group"
             >
               <div className="relative overflow-hidden">
                 <img
@@ -72,13 +87,13 @@ export default function Projects() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold">{project.title}</h3>
-                <p className="text-gray-600 mt-2">{project.description}</p>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">{project.title}</h3>
+                <p className="text-gray-600 dark:text-gray-400 mt-2">{project.description}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {project.tags.map((tag, i) => (
                     <span
                       key={i}
-                      className="bg-blue-50 text-blue-600 px-2 py-1 rounded-full text-xs"
+                      className="bg-blue-50 dark:bg-blue-900 text-blue-600 dark:text-white px-2 py-1 rounded-full text-xs"
                     >
                       {tag}
                     </span>
@@ -92,7 +107,7 @@ export default function Projects() {
         <div className="mt-12 text-center">
           <a
             href="#"
-            className="inline-flex items-center px-6 py-3 border border-gray-300 rounded-lg hover:border-blue-500 hover:text-blue-600 transition-colors"
+            className="inline-flex items-center px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-400 rounded-lg hover:border-blue-500 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
           >
             {/* View More Projects */}
             <svg

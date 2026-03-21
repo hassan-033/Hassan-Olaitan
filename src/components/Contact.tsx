@@ -1,23 +1,23 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-800 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-900">Get In Touch</h2>
-          <div className="mt-2 h-1 w-20 bg-blue-600 mx-auto rounded-full"></div>
-          <p className="mt-4 text-gray-600 max-w-lg mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Get In Touch</h2>
+          <div className="mt-2 h-1 w-20 bg-blue-600 dark:bg-blue-500 mx-auto rounded-full"></div>
+          <p className="mt-4 text-gray-600 dark:text-gray-400 max-w-lg mx-auto">
             Interested in working together or have any questions? Feel free to
             reach out!
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
+          <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Contact Information</h3>
 
             <div className="space-y-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900/50 flex items-center justify-center text-blue-600 dark:text-blue-400">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -33,11 +33,11 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <h4 className="font-medium">Email</h4>
-                  {/* <p className="text-gray-600">hassanolaitan033@gmail.com</p> */}
+                  <h4 className="font-medium text-gray-900 dark:text-gray-100">Email</h4>
+                  {/* <p className="text-gray-600 dark:text-gray-400">hassanolaitan033@gmail.com</p> */}
                   <a
                     href="mailto:hassanolaitan033@gmail.com"
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 dark:text-blue-400 hover:underline"
                   >
                     hassanolaitan033@gmail.com
                   </a>
@@ -45,7 +45,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-purple-600">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-purple-100 dark:bg-purple-900/50 flex items-center justify-center text-purple-600 dark:text-purple-400">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -61,11 +61,11 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <h4 className="font-medium">Phone</h4>
-                  {/* <p className="text-gray-600">0905 810 1564</p> */}
+                  <h4 className="font-medium text-gray-900 dark:text-gray-100">Phone</h4>
+                  {/* <p className="text-gray-600 dark:text-gray-400">0905 810 1564</p> */}
                   <a
                     href="tel:+2349058101564"
-                    className="text-blue-600 hover:underline"
+                    className="text-blue-600 dark:text-blue-400 hover:underline"
                   >
                     0905 810 1564
                   </a>
@@ -73,7 +73,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/50 flex items-center justify-center text-green-600 dark:text-green-400">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -95,18 +95,18 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div className="ml-4">
-                  <h4 className="font-medium">Location</h4>
-                  <p className="text-gray-600">Lagos, NG</p>
+                  <h4 className="font-medium text-gray-900 dark:text-gray-100">Location</h4>
+                  <p className="text-gray-600 dark:text-gray-400">Lagos, NG</p>
                 </div>
               </div>
             </div>
 
             <div className="mt-8">
-              <h4 className="font-semibold mb-3">Connect With Me</h4>
+              <h4 className="font-semibold mb-3 text-gray-900 dark:text-gray-100">Connect With Me</h4>
               <div className="flex space-x-4">
                 <a
                   href="https://x.com/hassano20097441"
-                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:bg-blue-100 text-gray-600 hover:text-blue-600 transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900/50 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
                   <svg
                     className="w-5 h-5"
@@ -118,7 +118,7 @@ export default function Contact() {
                 </a>
                 <a
                   href="https://www.linkedin.com/in/hassan-olaitan"
-                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:bg-blue-100 text-gray-600 hover:text-blue-600 transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900/50 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
                   <svg
                     className="w-5 h-5"
@@ -130,7 +130,7 @@ export default function Contact() {
                 </a>
                 <a
                   href="https://github.com/hassan-033"
-                  className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:bg-blue-100 text-gray-600 hover:text-blue-600 transition-colors"
+                  className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900/50 text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
                   <svg
                     className="w-5 h-5"
@@ -144,21 +144,21 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-6">Send Me a Message</h3>
+          <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-6 text-gray-900 dark:text-gray-100">Send Me a Message</h3>
 
             <form className="space-y-4">
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-700 mb-1"
+                  className="block text-sm font-medium text-gray-700 dark:text-gray-400 mb-1"
                 >
                   Name
                 </label>
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition placeholder-gray-400 dark:placeholder-gray-500"
                   placeholder="Your name"
                 />
               </div>
@@ -166,14 +166,14 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 mb-1"
+                  className="block text-sm font-medium text-gray-700 dark:text-gray-400 mb-1"
                 >
                   Email
                 </label>
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition placeholder-gray-400 dark:placeholder-gray-500"
                   placeholder="your@email.com"
                 />
               </div>
@@ -181,14 +181,14 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-700 mb-1"
+                  className="block text-sm font-medium text-gray-700 dark:text-gray-400 mb-1"
                 >
                   Message
                 </label>
                 <textarea
                   id="message"
                   rows={5}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                  className="w-full px-4 py-2 border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition placeholder-gray-400 dark:placeholder-gray-500"
                   placeholder="Your message..."
                 ></textarea>
               </div>
